@@ -18,5 +18,8 @@ public class TypeConversion {
 
         //all byte, shorts and char expression will be converted to integer values.
         //For example:- (byte)3*(byte)4 will be converted to integer first
+        //also char comparisons will be cnverted to integers
+
+
     }
 }
