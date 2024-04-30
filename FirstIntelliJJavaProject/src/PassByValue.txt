@@ -1,0 +1,19 @@
+In Java, there is no such thing as pass by reference.
+When we pass a variable through a method. It will create a new variable that will point towards the same
+object. So changing the value of that new variable wont have any effect for the original variable. Because
+when we change that new variable it will just point towards a new object, and the old variable will keep pointing
+towards the old object.
+
+Ex:-
+
+psvm(){
+   String name = "Shibshankar"
+   greet(name);
+   Sout(name);
+}
+greet(naam){
+naam = "Shivshankar"
+}
+
+Changing the new variable in the greet method wont have any effect on the old variable because by doing so
+we are just creating a new object and the new variable will just point towards the new object.
