@@ -1,0 +1,21 @@
+Anything initialized outside the scope can be changed inside the scope and also accessible, but cannot again be
+intialized inside the scope.
+Anything initialized inside the scope cannot be accessed outside the scope, but can be initialized again outside the scope
+only after the scope of the block has finished.
+
+Ex:- 
+{
+int a = 10;
+{
+	int a = 20;//compiler error, because the scope of outside a is not finised yet. 
+}
+}
+
+But,
+
+{
+{
+int a = 10;
+}
+int a = 10; //valid because the scope of the first a is finished inside the scope
+}
