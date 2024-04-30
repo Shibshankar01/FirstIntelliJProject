@@ -1,6 +1,6 @@
-Anything initialized outside the scope can be changed inside the scope and also accessible, but cannot again be
-intialized inside the scope.
-Anything initialized inside the scope cannot be accessed outside the scope, but can be initialized again outside the scope
+Anything Declared outside the scope can be changed inside the scope and also accessible, but cannot again be
+declared inside the scope.
+Anything declared inside the scope cannot be accessed outside the scope, but can be decalred again outside the scope
 only after the scope of the block has finished.
 
 Ex:- 
