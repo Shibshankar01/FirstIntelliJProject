@@ -17,3 +17,17 @@ naam = "Shivshankar"
 
 Changing the new variable in the greet method wont have any effect on the old variable because by doing so
 we are just creating a new object and the new variable will just point towards the new object.
+
+But if we do the same with array the original array will also be changed. Because both the variables are pointing to the same object and changing one value of the
+array will change it for all the variables pointing towards the same object.
+
+Ex:
+psvm(){
+int[] arr = {1, 2, 3, 4};
+change(arr);
+sout(arr);
+}
+change(nums){
+nums[0] = 99;
+}
+WIll change the value for arr variable as well because no new object is created and we are changing the value for the both the variables.
